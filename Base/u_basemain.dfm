@@ -1,7 +1,7 @@
-object Form1: TForm1
+object _basemain: T_basemain
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = '_basemain'
   ClientHeight = 299
   ClientWidth = 635
   Color = clBtnFace
@@ -11,6 +11,14 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnClick = FormClick
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDblClick = FormDblClick
+  OnDestroy = FormDestroy
+  OnDeactivate = FormDeactivate
+  OnHide = FormHide
   PixelsPerInch = 96
   TextHeight = 13
 end
