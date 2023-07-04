@@ -1,11 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.681,E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas=E:\Delphi\Der_Fussball_Funktionaer\Objects\O_Player.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.188,E:\Delphi\Der_Fussball_Funktionaer\Objects\O_Squad.pas=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.595,E:\Delphi\Der_Fussball_Funktionaer\Database\DM_GameRoutine.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.887,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.265,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.483,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.976,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.069,E:\Delphi\Der_Fussball_Funktionaer\u_main.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.664,=E:\Delphi\Der_Fussball_Funktionaer\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.006,E:\Delphi\Der_Fussball_Funktionaer\Unit2.pas=E:\Delphi\Der_Fussball_Funktionaer\Forms\u_main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.624,E:\Delphi\Der_Fussball_Funktionaer\Der_Fussball_Funktionaer.dproj=E:\Delphi\Der_Fussball_Funktionaer\DFF.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.545,=E:\Delphi\Der_Fussball_Funktionaer\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,E:\Delphi\Der_Fussball_Funktionaer\Unit1.dfm=E:\Delphi\Der_Fussball_Funktionaer\Base\u_basemain.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.172,E:\Delphi\Der_Fussball_Funktionaer\Unit1.dfm=E:\Delphi\Der_Fussball_Funktionaer\Database\DM_GameRoutine.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,E:\Delphi\Project1.dproj=E:\Delphi\Der_Fussball_Funktionaer\Der_Fussball_Funktionaer.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.483,=E:\Delphi\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.969,E:\Delphi\Der_Fussball_Funktionaer\Events\GameControl.pas=E:\Delphi\Der_Fussball_Funktionaer\Events\_GameControl.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.336,=E:\Delphi\Der_Fussball_Funktionaer\DataModel\DM_GameRoutine.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.296,E:\Delphi\Unit1.dfm=E:\Delphi\Der_Fussball_Funktionaer\u_main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.780,=E:\Delphi\Der_Fussball_Funktionaer\Forms\u_main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.383,E:\Delphi\Der_Fussball_Funktionaer\Forms\u_main.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.296,E:\Delphi\Unit1.pas=E:\Delphi\Der_Fussball_Funktionaer\u_main.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.225,=E:\Delphi\Unit1.pas</Transaction>
-    <Transaction>2023.06.26 17:07:35.483,=E:\Delphi\Unit1.pas</Transaction>
-    <Transaction>2023.06.26 17:07:55.296,E:\Delphi\Der_Fussball_Funktionaer\u_main.dfm=E:\Delphi\Unit1.dfm</Transaction>
-    <Transaction>2023.06.26 17:07:55.296,E:\Delphi\Der_Fussball_Funktionaer\u_main.pas=E:\Delphi\Unit1.pas</Transaction>
-    <Transaction>2023.06.26 17:08:13.103,E:\Delphi\Der_Fussball_Funktionaer\Der_Fussball_Funktionaer.dproj=E:\Delphi\Project1.dproj</Transaction>
-    <Transaction>2023.06.26 17:08:32.624,E:\Delphi\Der_Fussball_Funktionaer\DFF.dproj=E:\Delphi\Der_Fussball_Funktionaer\Der_Fussball_Funktionaer.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.006,E:\Delphi\Der_Fussball_Funktionaer\Unit2.dfm=E:\Delphi\Der_Fussball_Funktionaer\Forms\u_main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.270,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.663,E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas=E:\Delphi\Der_Fussball_Funktionaer\Objects\O_Team.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas=E:\Delphi\Der_Fussball_Funktionaer\Base\u_basemain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.207,E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas=E:\Delphi\Der_Fussball_Funktionaer\Events\GameControl.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.644,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.172,E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas=E:\Delphi\Der_Fussball_Funktionaer\Database\DM_GameRoutine.pas</Transaction>
+    <Transaction>2023.07.04 22:28:12.288,=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>2023.07.04 22:28:36.779,E:\Delphi\Der_Fussball_Funktionaer\Views\Team\U_TeamView.pas=E:\Delphi\Der_Fussball_Funktionaer\Unit1.pas</Transaction>
+    <Transaction>2023.07.04 22:28:36.779,E:\Delphi\Der_Fussball_Funktionaer\Views\Team\U_TeamView.dfm=E:\Delphi\Der_Fussball_Funktionaer\Unit1.dfm</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Base"/>
+    <File Path="Base\u_basemain.pas"/>
+    <File Path="Base\u_basemain.dfm"/>
+    <File Path="DataModel"/>
+    <File Path="DataModel\DM_GameRoutine.pas"/>
+    <File Path="DataModel\DM_GameRoutine.dfm"/>
+    <File Path="Events"/>
+    <File Path="Events\_GameControl.pas"/>
+    <File Path="Forms"/>
+    <File Path="Forms\u_main.pas"/>
+    <File Path="Forms\u_main.dfm"/>
+    <File Path="Objects"/>
+    <File Path="Objects\O_Player.pas"/>
+    <File Path="Objects\O_Squad.pas"/>
+    <File Path="Objects\O_Team.pas"/>
+    <File Path="Views"/>
+    <File Path="Views\Team"/>
+    <File Path="Views\Team\U_TeamView.pas"/>
+    <File Path="Views\Team\U_TeamView.dfm"/>
+  </ProjectSortOrder>
 </BorlandProject>
