@@ -2,10 +2,10 @@ inherited _main: T_main
   Caption = '_main'
   ClientHeight = 837
   ClientWidth = 1089
-  ExplicitTop = -206
-  ExplicitWidth = 1105
-  ExplicitHeight = 876
-  PixelsPerInch = 96
+  Visible = True
+  WindowState = wsMaximized
+  ExplicitWidth = 1101
+  ExplicitHeight = 875
   TextHeight = 13
   object MainPanelGround: TPanel
     Left = 0
@@ -15,6 +15,8 @@ inherited _main: T_main
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
+    ExplicitWidth = 1085
+    ExplicitHeight = 836
     object MainPanelSidebar: TPanel
       Left = 0
       Top = 41
@@ -25,6 +27,7 @@ inherited _main: T_main
       Color = clGradientActiveCaption
       ParentBackground = False
       TabOrder = 0
+      ExplicitHeight = 795
       object SidebarClient: TPanel
         Left = 0
         Top = 0
@@ -35,6 +38,7 @@ inherited _main: T_main
         Color = clGradientActiveCaption
         ParentBackground = False
         TabOrder = 0
+        ExplicitHeight = 715
         object SpeedButton1: TSpeedButton
           Left = 0
           Top = 539
@@ -140,8 +144,8 @@ inherited _main: T_main
           Caption = 'Infrastruktur'
           Flat = True
           OnClick = BtnPageInfrastrukturClick
-          ExplicitLeft = 2
-          ExplicitTop = 153
+          ExplicitLeft = -1
+          ExplicitTop = 141
         end
         object BtnPageKarriere: TSpeedButton
           Left = 0
@@ -190,6 +194,7 @@ inherited _main: T_main
         Color = clGradientActiveCaption
         ParentBackground = False
         TabOrder = 1
+        ExplicitTop = 715
       end
     end
     object MainPanelHeader: TPanel
@@ -202,6 +207,7 @@ inherited _main: T_main
       Color = clGradientActiveCaption
       ParentBackground = False
       TabOrder = 1
+      ExplicitWidth = 1085
     end
     object MainPanelContent: TPanel
       Left = 129
@@ -213,6 +219,8 @@ inherited _main: T_main
       Color = clWhite
       ParentBackground = False
       TabOrder = 2
+      ExplicitWidth = 956
+      ExplicitHeight = 795
       object PCMainPages: TPageControl
         Left = 0
         Top = 0
@@ -228,6 +236,7 @@ inherited _main: T_main
         Style = tsFlatButtons
         TabHeight = 25
         TabOrder = 0
+        ExplicitTop = -3
         object PageOrganisation: TTabSheet
           Caption = 'PageOrganisation'
           DoubleBuffered = False
@@ -240,10 +249,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelOrganisation'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCOrganisationen: TPageControl
               Left = 1
               Top = 1
@@ -254,9 +259,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet1: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -275,20 +277,20 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelTransfer'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
+            ExplicitWidth = 948
+            ExplicitHeight = 690
             object PCTeam: TPageControl
               Left = 1
               Top = 1
               Width = 950
               Height = 717
-              ActivePage = PageTeamFirst
+              ActivePage = PageTeamSecond
               Align = alClient
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
+              ExplicitWidth = 946
+              ExplicitHeight = 688
               object PageTeamFirst: TTabSheet
                 Caption = '1. Mannschaft'
                 ImageIndex = 3
@@ -298,6 +300,7 @@ inherited _main: T_main
               object PageTeamSecond: TTabSheet
                 Caption = '2. Mannschaft'
                 ImageIndex = 1
+                OnShow = PageTeamSecondShow
               end
               object PageTeamYouth: TTabSheet
                 Caption = 'Jugend'
@@ -307,7 +310,7 @@ inherited _main: T_main
                   Top = 0
                   Width = 942
                   Height = 667
-                  ActivePage = DYouth
+                  ActivePage = FYouth
                   Align = alClient
                   TabOrder = 0
                   TabWidth = 150
@@ -326,6 +329,14 @@ inherited _main: T_main
                     Caption = 'D-Jugend'
                     ImageIndex = 3
                   end
+                  object EYough: TTabSheet
+                    Caption = 'E-Jugend'
+                    ImageIndex = 4
+                  end
+                  object FYouth: TTabSheet
+                    Caption = 'F-Jugend'
+                    ImageIndex = 5
+                  end
                 end
               end
             end
@@ -342,10 +353,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelTransfer'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCTransfers: TPageControl
               Left = 1
               Top = 1
@@ -356,9 +363,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet5: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -377,10 +381,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelInfrastruktur'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCInfrastruktur: TPageControl
               Left = 1
               Top = 1
@@ -391,9 +391,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet2: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -412,10 +409,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelVerein'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCVerein: TPageControl
               Left = 1
               Top = 1
@@ -444,10 +437,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelVerband'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCVerband: TPageControl
               Left = 1
               Top = 1
@@ -458,10 +447,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 0
-              ExplicitTop = 0
-              ExplicitWidth = 952
-              ExplicitHeight = 719
               object TabSheet6: TTabSheet
                 Caption = 'Wahlen'
                 ImageIndex = 3
@@ -472,7 +457,6 @@ inherited _main: T_main
                   Height = 41
                   Align = alTop
                   TabOrder = 0
-                  ExplicitWidth = 944
                   object Label38: TLabel
                     Left = 6
                     Top = 14
@@ -507,8 +491,6 @@ inherited _main: T_main
                   Height = 626
                   Align = alClient
                   TabOrder = 1
-                  ExplicitWidth = 944
-                  ExplicitHeight = 628
                   object Image2: TImage
                     Left = 24
                     Top = 24
@@ -582,15 +564,15 @@ inherited _main: T_main
                   Color = clWhite
                   AutoSize = True
                   TabOrder = 2
-                  ExplicitWidth = 944
-                  ExplicitHeight = 628
                   DefaultCanvas = 'TGDIPlusCanvas'
                   ColorPaletteIndex = 7
                   object Series1: TPieSeries
+                    HoverElement = []
                     Marks.Emboss.Clip = True
                     Marks.Shadow.Clip = True
                     Marks.Transparent = True
                     Marks.Clip = True
+                    Marks.Tail.Margin = 2
                     XValues.Order = loAscending
                     YValues.Name = 'Pie'
                     YValues.Order = loNone
@@ -639,10 +621,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelPrivat'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCPrivat: TPageControl
               Left = 1
               Top = 1
@@ -653,9 +631,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet8: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -674,10 +649,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelInvestoren'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCInvestoren: TPageControl
               Left = 1
               Top = 1
@@ -688,9 +659,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet3: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -709,10 +677,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelKarriere'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCKarriere: TPageControl
               Left = 1
               Top = 1
@@ -723,9 +687,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet7: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -744,10 +705,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelSponsoren'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCSponsoren: TPageControl
               Left = 1
               Top = 1
@@ -758,9 +715,6 @@ inherited _main: T_main
               TabHeight = 40
               TabOrder = 0
               TabWidth = 150
-              ExplicitLeft = 2
-              ExplicitTop = 0
-              ExplicitHeight = 689
               object TabSheet9: TTabSheet
                 Caption = 'TabSheet4'
                 ImageIndex = 3
@@ -779,10 +733,6 @@ inherited _main: T_main
             Align = alClient
             Caption = 'ClientPanelStart'
             TabOrder = 0
-            ExplicitLeft = 608
-            ExplicitTop = 32
-            ExplicitWidth = 185
-            ExplicitHeight = 41
             object PCStart: TPageControl
               Left = 1
               Top = 1
@@ -813,6 +763,8 @@ inherited _main: T_main
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 1
+        ExplicitTop = 753
+        ExplicitWidth = 956
         object Panel2: TPanel
           Left = 797
           Top = 0
@@ -821,6 +773,7 @@ inherited _main: T_main
           Align = alRight
           BevelOuter = bvNone
           TabOrder = 0
+          ExplicitLeft = 793
           object Label18: TLabel
             AlignWithMargins = True
             Left = 3

@@ -92,6 +92,8 @@ type
     BYouth: TTabSheet;
     CYouth: TTabSheet;
     DYouth: TTabSheet;
+    EYough: TTabSheet;
+    FYouth: TTabSheet;
     procedure FormClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
@@ -111,6 +113,7 @@ type
     procedure BtnPagePrivatbereichClick(Sender: TObject);
     procedure PageTeamFirstShow(Sender: TObject);
     procedure PageTeamFirstHide(Sender: TObject);
+    procedure PageTeamSecondShow(Sender: TObject);
   private
     { Private-Deklarationen }
   public
@@ -270,17 +273,36 @@ var
 MyForm : TForm;
 begin
   inherited;
+  _TeamView.Parent := PageTeamFirst;
+  _TeamView.Visible := True;
+  _TeamView.Align := TAlign.alClient;
+  _TeamView.Show;
+  _TeamView.BringToFront;
+  _TeamView.Load(1);
 
-  MyForm := T_TeamView.Create(Self);
-  with MyForm do
-  begin
-    Name := 'MyForm';
-    Parent := PageTeamFirst;
-    Align := TAlign.alClient;
-    BorderStyle := bsNone;  // and this for a better embedded appearance
-    Show;
-   // MyForm.Free;
-  end;
+
+
+//  MyForm := T_TeamView.Create(self);
+//  with MyForm do
+//  begin
+//    Name := 'MyForm';
+//    Parent := PageTeamFirst;
+//    Align := TAlign.alClient;
+//    BorderStyle := bsNone;  // and this for a better embedded appearance
+//    Show;
+//   // MyForm.Free;
+//  end;
+end;
+
+procedure T_main.PageTeamSecondShow(Sender: TObject);
+begin
+  inherited;
+    _TeamView.Parent := PageTeamSecond;
+    _TeamView.Visible := True;
+    _TeamView.Align := TAlign.alClient;
+    _TeamView.Show;
+    _TeamView.BringToFront;
+    _TeamView.Load(1);
 end;
 
 end.
